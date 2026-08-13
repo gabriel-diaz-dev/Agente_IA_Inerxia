@@ -507,6 +507,9 @@ Con el criterio actual, cualquier llamada donde el agente mencionó la promo cue
 | P13 | Problemas de pago: siempre "la página de pago", sin "pasarela" ni diagnósticos | palabra prohibida en contexto de pago (3 casos) |
 | P14 | Si la página muestra un precio distinto a dos mil ochocientos (ej. 19.600), elegir opción de UN día y no avanzar si el total no coincide | guía contradictoria ante la trampa de precio |
 | P15 | Cliente ocupado o hablando con otra persona → ofrecer recall temprano, no repetir el pitch | repetición de pitch con cliente distraído |
+| P16 | Prohibido pedir datos sensibles por teléfono (tarjeta, CVV, claves) y guiar en voz el llenado de tarjeta; frase estándar "no puedo verificar el cobro desde aquí; la página te mostrará 'pago exitoso'" | examen final: Daniela pidió completar datos de tarjeta en llamada |
+| P17 | Número de soporte SIEMPRE en bloques con pausas; prohibido dictar dígitos sueltos; si no capta en 2 repeticiones, derivar a la palabra "urgencia" | examen final: número dictado en formato inseguro |
+| P18 | Si el cliente pide confirmar el precio, responder siempre "Son dos mil ochocientos pesos." en palabras | examen final: no confirmó el precio al pedirlo |
 
 **Evidencia:** sesión de pruebas del agente Probador contra Daniela (agosto 2026). Cada crítica fue dictada como mejora y aplicada al prompt v3. La verificación de estas reglas corresponde a la siguiente sesión de pruebas del Probador.
 
@@ -523,6 +526,8 @@ Con el criterio actual, cualquier llamada donde el agente mencionó la promo cue
 - Además, el análisis confirmó la necesidad de mejoras ya aplicadas: E3 (612 llamadas repitiendo "¿Sigues en línea?"), V2 (923 voicemails sin mensaje con marca), K1 (269 falsos positivos), P8 (5 confirmaciones de activación sin verificación).
 
 **Retoques menores aplicados:** X4 reforzado ("nunca repitas ni confirmes el precio incorrecto del cliente") y encabezado de variables reforzado con la prohibición de pronunciar sus nombres.
+
+**Ajustes del examen final (transcripción de pruebas en vivo):** P16, P17 y P18 añadidos; P1 reforzado con nota fonética (Z suena como S en español, lo inaceptable es deletrear con S); U1 reforzado con "no repetir la variante incorrecta del cliente"; regla de pronunciación reforzada con "nunca deletrear la URL letra por letra". El Probador también recibió la regla de dictar números en palabras en el reporte.
 
 **Versión limpia:** se generó `prompt_daniela_fibrazo_limpio.md` sin las etiquetas `[MEJORA ...]`, conservando todas las reglas.
 
@@ -564,3 +569,4 @@ Con el criterio actual, cualquier llamada donde el agente mencionó la promo cue
 | U2 | Pronunciación | Sesión de pruebas del Probador | Nulo |
 | P1-P10 | Seguridad y consistencia | Sesión de pruebas del Probador (agosto 2026) | Nulo |
 | P11-P15 | Análisis del dataset | Análisis programático + muestra profunda de 4.017 transcripciones (ver informe_hallazgos_dataset.md) | Nulo |
+| P16-P18 | Seguridad | Examen final en vivo (transcripción de pruebas del Probador) | Nulo |

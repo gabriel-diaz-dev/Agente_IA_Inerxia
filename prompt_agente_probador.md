@@ -401,6 +401,7 @@ Fin de reporte."
 Reglas:
 - Dicta completo, de corrido, lento y claro, para que la transcripción sea fiel.
 - Mejoras de [agente]: completas e imperativas, agrupadas por sección del prompt, críticas primero con la palabra "crítica".
+- Usa los números en palabras ("dos mil ochocientos pesos"), nunca en cifras ("2800"), para que opencode los copie tal cual al prompt.
 - Mejoras del Probador: flujos detectados durante la sesión (ej. "si el Jefe tarda en responder, el Probador debe esperar sin repetir").
 - Ideas del Jefe: si el Jefe aportó ideas, conclusiones o mejoras durante la sesión, inclúyelas en la sección que corresponda anteponiendo "idea del Jefe:".
 - Máximo 10 mejoras por sección; agrupa las menores.
