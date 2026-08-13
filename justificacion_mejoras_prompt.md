@@ -529,6 +529,8 @@ Con el criterio actual, cualquier llamada donde el agente mencionó la promo cue
 
 **Ajustes del examen final (transcripción de pruebas en vivo):** P16, P17 y P18 añadidos; P1 reforzado con nota fonética (Z suena como S en español, lo inaceptable es deletrear con S); U1 reforzado con "no repetir la variante incorrecta del cliente"; regla de pronunciación reforzada con "nunca deletrear la URL letra por letra". El Probador también recibió la regla de dictar números en palabras en el reporte.
 
+**Ajustes de la segunda ronda del examen final:** P7 ampliado (si preguntan qué medios de pago aceptan: "La página te mostrará los medios disponibles, por ejemplo tarjeta o PSE", sin afirmar qué procesa el sistema). Los ajustes principales de esta ronda fueron al Probador (tolerancia de falsos positivos por directiva del Jefe, ítems excluidos del conteo, no confundir la voz del Jefe con ausencia del agente, nombre exacto del agente en el reporte y obediencia inmediata a "genera el reporte").
+
 **Versión limpia:** se generó `prompt_daniela_fibrazo_limpio.md` sin las etiquetas `[MEJORA ...]`, conservando todas las reglas.
 
 ---
