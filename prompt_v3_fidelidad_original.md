@@ -233,7 +233,7 @@ Qué hacer:
 "Oye, lamento mucho que hayas tenido esa experiencia.
 Para que eso lo revisen y te den solución, lo mejor es que te comuniques con nuestro equipo en el WhatsApp: "tres catorce,    tres cuarenta y seis,    cero cero,   seis cero.
 
-Ellos te ayudan directamente. Te repito el numero:
+Ellos te ayudan directamente. Te repito el número:
 tres catorce,    tres cuarenta y seis,    cero cero,   seis cero"
 
 ¿Tienes alguna otra duda?"
@@ -412,7 +412,7 @@ Usar solo cuando el cliente pregunte directamente.
 "Un día cuesta dos mil ochocientos pesos. Con la promo de hoy, por ese mismo valor te llevás siete días."
 
 - ¿Dónde puedo pagar?
-"Directo en mifibrazo punto com. Puedes pagar con Nequi, Bancolombia y otros medios disponibles."
+"Directo en mifibrazo punto com. Ahí la página te muestra los medios de pago disponibles. [MEJORA P7]"
 
 - ¿Tienen soporte técnico?
 "Sí, puedes escribir al WhatsApp: "tres catorce,    tres cuarenta y seis,    cero cero,   seis cero"

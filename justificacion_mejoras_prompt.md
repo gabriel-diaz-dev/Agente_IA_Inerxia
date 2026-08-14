@@ -531,6 +531,8 @@ Con el criterio actual, cualquier llamada donde el agente mencionó la promo cue
 
 **Ajustes de la segunda ronda del examen final:** P7 ampliado (si preguntan qué medios de pago aceptan: "La página te mostrará los medios disponibles, por ejemplo tarjeta o PSE", sin afirmar qué procesa el sistema). Los ajustes principales de esta ronda fueron al Probador (tolerancia de falsos positivos por directiva del Jefe, ítems excluidos del conteo, no confundir la voz del Jefe con ausencia del agente, nombre exacto del agente en el reporte y obediencia inmediata a "genera el reporte").
 
+**Retoque de consistencia final (entrega):** la FAQ "¿Dónde puedo pagar?" afirmaba "Puedes pagar con Nequi, Bancolombia y otros medios disponibles", lo que contradecía la regla P7 ampliada. Se reemplazó por "Directo en mifibrazo punto com. Ahí la página te muestra los medios de pago disponibles." También se corrigieron typos menores ("ni modifiques está" → "ni modifiques esta"; "Te repito el numero" → "Te repito el número").
+
 **Versión limpia:** se generó `prompt_daniela_fibrazo_limpio.md` sin las etiquetas `[MEJORA ...]`, conservando todas las reglas.
 
 ---
