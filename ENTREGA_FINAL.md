@@ -20,6 +20,7 @@
 |---|---|
 | `prompt_daniela_fibrazo_limpio.md` | **PROMPT FINAL listo para montar** (completo, sin análisis) |
 | `ENTREGA_FINAL.md` | Este documento: resumen de la entrega |
+| `justificacion_entrega.md` | **Justificación y explicación concisa para enviar** (según el brief) |
 | `informe_hallazgos_dataset.md` | Puntos de mejora encontrados en las 4.017 llamadas reales |
 | `justificacion_mejoras_prompt.md` | Qué corregí, qué añadí y por qué, con evidencia registro por registro |
 | `plan_pruebas_agente.md` | Suite de 52 tests exigentes usada en las pruebas en vivo |
