@@ -1,4 +1,4 @@
-# ENTREGA FINAL — Challenge técnico Inerxia
+# RESUMEN Y GUÍA DE LA ENTREGA — Challenge técnico Inerxia
 
 > Optimización de prompt · Agente de IA de voz en producción
 > Caso: ISP prepago de Colombia · llamadas de retención/reactivación
@@ -19,7 +19,7 @@
 | Archivo | Contenido |
 |---|---|
 | `prompt_daniela_fibrazo_limpio.md` | **PROMPT FINAL listo para montar** (completo, sin análisis) |
-| `ENTREGA_FINAL.md` | Este documento: resumen de la entrega |
+| `00_RESUMEN_Y_GUIA_DE_ENTREGA.md` | Este documento: resumen y guía de los archivos entregados |
 | `justificacion_entrega.md` | **Justificación y explicación** |
 | `informe_hallazgos_dataset.md` | Puntos de mejora encontrados en las 4.017 llamadas reales |
 | `justificacion_mejoras_prompt.md` | Qué corregí, qué añadí y por qué, con evidencia registro por registro |
